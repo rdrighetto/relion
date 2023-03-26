@@ -37,6 +37,10 @@
 class ExpImage
 {
 public:
+
+	// Write in float16 (MRC mode 12)?
+	bool write_float16;
+	
 	// Position of the image in the original input STAR file
 	long int id;
 
